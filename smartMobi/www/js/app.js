@@ -1,6 +1,15 @@
 // it is custom build angular js file
-angular.module("ESS",['ionic'])
+ess = angular.module("ESS",['ionic'])
 
+ess.controller('ESS-Controller',function(){
+  $scope.submenu = {
+    title : "Ehsan",
+    title : "Mohsin",
+    title : "Malik",
+    title : "Osama",
+    
+  }
+})
 
 // Ionic Starter App
 
